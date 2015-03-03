@@ -1,0 +1,85 @@
+/*
+Theme Name: Blank
+Theme URI: http://inspyregroup.com
+Description: A Modular Theme.
+Author: Nicholas Koskowski, Inspyre Group
+Version: 1.0
+Tags: awesome
+*/
+
+/* Systemic */
+* {box-sizing:border-box;}
+html {height:100%; background-image: url('images/bg.jpg'); background-size:cover; background-origin: center; background-repeat: no-repeat;}
+body {font-family: 'Source Sans Pro', sans-serif;}
+
+h1 {font-size:95px; font-weight: normal; text-transform: uppercase; margin: 0px; line-height: 92px;}
+h1 em {color:#639541;}
+
+h2 {font-size: 46px; margin: 0px; font-weight: 400;}
+
+h4 {color:#639541; text-transform: uppercase; font-size:42px; margin:0px; padding-bottom:10px;}
+
+p, li {font-size: 34px; text-transform: uppercase;}
+
+li {font-size: 30px; list-style: none;}
+
+input[type=text], input[type=email], textarea {width: 100%; resize:none; background-color: #eee; margin-bottom:10px; border:1px solid #639541; font-size: 24px; padding:5px 10px;}
+textarea {min-height: 120px;}
+
+button, input[type=submit] {background-color:#639541; color:#fff; margin-top:-8px; font-size: 38px; font-weight: bold; text-transform: uppercase; border:none; border-radius: 8px; vertical-align: middle; display: inline-block;}
+
+.container {margin-left: auto; margin-right: auto; max-width:1300px;}
+.banner {margin-top:5%; background-image:url('images/background.png'); max-width: 1280px; max-height: 785px; width: 100%; height: 100%; padding-top: 168px; padding-left: 95px; padding-right: 65px;}
+
+.banner h1 {padding-left:200px;}
+
+.banner .seperator {margin-top:45px;}
+
+.banner .third.talignright p {padding-right:65px; padding-top: 15px;}
+
+.banner .two-thirds ul {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; padding-top: 25px;}
+
+p.small {font-size:20px; text-align: center; text-transform: none;}
+
+.green {background-color:#000; color:#fff; box-sizing:content-box; padding-left:40px; padding-right:40px; margin-left: -40px; padding-top: 5px; padding-bottom: 5px; text-align: center; margin-top:-14px; }
+
+.photo-wrap {background-color: rgba(0,0,0,0.55); padding-top:15px; padding-bottom:15px; max-width:1200px; margin-left:55px; margin-top:0px;}
+
+.photo-wrap img {border-radius:4px; border:2px solid #fff; margin-right: 15px; max-width: 25%;}
+.photo-wrap img:first-of-type {margin-left: 15px;}
+.photo-wrap img:last-of-type {margin-left:0px;}
+
+.col-wrap {font-size: 0;}
+.column {display: inline-block; vertical-align: top;}
+.full {width: 100%;}
+.two-thirds {width: 66.666%;}
+.half {width: 50%;}
+.third {width: 33.333%;}
+
+.talignright {text-align: right;}
+.alignright {float: right; vertical-align: top;}
+
+.alignleft {float: left;}
+
+
+.lightbox {display: block; position: fixed; top:5%; left:50%; max-width: 480px; margin-left:-240px; display: none; background-color: #fff; z-index: 9999; padding: 20px;}
+.lightbox-bg {background-color:rgba(0,0,0,0.75); position: fixed; top:0px; left:0px; width: 100%; height: 100%; display: none;}
+
+.lightbox input[type=submit] {float: right; margin-top:5px; font-size: 28px;}
+
+.lightbox .alignleft {max-height:48px;}
+
+@media (max-width:1200px) {
+	.banner { background-image: none; padding:20px !important; margin-top: 0px; padding-bottom: 0px !important; background-color: rgba(255,255,255,0.95); max-height:100%; max-width: 100%;}
+	.banner h1 {padding-left:0px; text-align: center;}
+	.third {display: block; width: 100%;}
+	.banner .third.talignright p {text-align: center; padding:0px;}
+	.seperator {display: none;}
+	.banner .two-thirds {display: block; width: 100%;}
+
+	.photo-wrap {margin:0px; display: block; padding:0px;}
+	.photo-wrap img {margin:0px; padding:0px; border:none;}
+
+	.photo-wrap img:first-of-type {margin-left: 0px;}
+	.photo-wrap img:last-of-type {margin-left:0px;}
+}
